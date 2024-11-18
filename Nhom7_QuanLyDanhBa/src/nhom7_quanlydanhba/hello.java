@@ -34,6 +34,7 @@ public class hello extends javax.swing.JFrame {
         jScrollPane1 = new javax.swing.JScrollPane();
         jTextPane1 = new javax.swing.JTextPane();
         jButton4 = new javax.swing.JButton();
+        jButton5 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -59,6 +60,8 @@ public class hello extends javax.swing.JFrame {
         jScrollPane1.setViewportView(jTextPane1);
 
         jButton4.setText("jButton4");
+
+        jButton5.setText("jButton5");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -90,6 +93,10 @@ public class hello extends javax.swing.JFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jButton2)
                 .addGap(130, 130, 130))
+            .addGroup(layout.createSequentialGroup()
+                .addGap(57, 57, 57)
+                .addComponent(jButton5)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -106,7 +113,9 @@ public class hello extends javax.swing.JFrame {
                     .addComponent(jButton4))
                 .addGap(35, 35, 35)
                 .addComponent(jButton2)
-                .addGap(73, 73, 73)
+                .addGap(12, 12, 12)
+                .addComponent(jButton5)
+                .addGap(38, 38, 38)
                 .addComponent(jButton1)
                 .addGap(0, 16, Short.MAX_VALUE))
         );
@@ -154,6 +163,7 @@ public class hello extends javax.swing.JFrame {
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton4;
+    private javax.swing.JButton jButton5;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JScrollPane jScrollPane1;
